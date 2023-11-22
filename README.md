@@ -1,4 +1,5 @@
 # Storybook Addon Storybook Discussion
+
 Leave comments for components and MDX documents based on [addon-kit](https://github.com/storybookjs/addon-kit), comments are saved on [supabase](https://supabase.com/) database.
 
 ### Usage
@@ -59,3 +60,16 @@ create table
   );
 ```
 
+#### Playground
+
+This playground is react project based on Vite for the testing the main package `storybook-addon-discussion`
+
+Basically, the main package installed via `pnpm install file:../`.
+
+If you want to make any update in the main package and want to test it, you have to follow the below steps
+
+- navigate to the main package directory via the terminal
+- run `pnpm build`
+- navigate to the playground directory
+- run `pnpm install`
+- then run the playground by run `pnpm storybook`

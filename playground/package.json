@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "storybook-addon-discussion": "file:.."
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.1",
